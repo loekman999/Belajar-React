@@ -82,14 +82,15 @@ const Footer = () => {
             >
               <i class="fab fa-facebook" />
             </Link>
-            <Link
+            <a
+              rel="noreferrer"
               class="social-icon-link youtube"
-              to="/"
+              href="https://www.youtube.com/"
               target="_blank"
               aria-label="Youtube"
             >
               <i class="fab fa-youtube" />
-            </Link>
+            </a>
             <Link
               class="social-icon-link twitter"
               to="/"
