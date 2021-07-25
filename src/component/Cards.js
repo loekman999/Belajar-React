@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
+import "../App.css";
 import Img1 from "../images/img-9.jpg";
 import Img2 from "../images/img-1.jpg";
 import Img3 from "../images/img-3.jpg";
@@ -15,8 +16,8 @@ const Cards = () => {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              text="Explore Mount Sindoro at night"
-              label="Mountain Sindoro"
+              text="Explore Mount Gede"
+              label="Mountain Gede"
               path="/products"
             >
               <video
@@ -34,6 +35,8 @@ const Cards = () => {
             >
               <img src={Img2} alt="Travel Loka" className="cards__item__img" />
             </CardItem>
+          </ul>
+          <ul className="cards__items">
             <CardItem
               text="Explore Mount Merapi"
               label="Mountain Merbabu"
